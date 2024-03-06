@@ -1,0 +1,66 @@
+.textoPerfumes h1 {
+    text-align: center;
+    color: #1e5077;
+    font-size: 48px;
+    font-family: 'Courgette', cursive;
+    padding: 40px 45px 15px;
+  }
+
+
+.perfumes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 45px;
+  }
+  
+  .imgPerfumes {
+    width: auto;
+    height: 550px;
+    margin: 40px;
+  }
+
+/*resposive para tablet*/
+@media (max-width: 1002px) {
+
+    .imgPerfumes {
+      height: 370px;
+      margin: 15px;
+    }
+  }
+  
+  /*resposive para tablet2*/
+  @media (max-width: 800px) {
+    .imgPerfumes {
+      height: 320px;
+    }
+  }
+  
+  /*resposive para mobil1*/
+  @media (max-width: 768px) {
+    .imgPerfumes {
+      height: 280px;
+    }
+  }
+  
+  /*resposive para mobil2*/
+  @media (max-width: 650px) {
+    .perfumes {
+      margin-bottom: 10px;
+      flex-direction: column;
+      align-items: center;
+    }
+    .imgPerfumes {
+      height: 320px;
+      margin: 10px;
+    }
+  }
+  
+  /*resposive para mobil3*/
+  @media (max-width: 365px) {
+    .imgPerfumes {
+      height: 250px;
+    }
+  }
+
