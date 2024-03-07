@@ -1,19 +1,54 @@
-.header{
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:300px) {
+  .header {
     background: #1a1a1a;
     height: 50px;
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content: center;
-}
+  }
 
-.logo {
+  .logo {
     height: 30px;
     margin: 15px 20px;
   }
+}
 
-  /*resposive para table*/
-@media (min-width: 1002px) {}
-  
-  /*resposive para mobil*/
-  @media (min-width: 738px) {}
-  
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android)*/
+@media (min-width: 600px) {
+  .header {
+    height: 60px;
+  }
+
+  .logo {
+    height: 40px;
+    margin: 10px 0px;
+  }
+}
+
+@media (min-width: 800px) {
+  .header {
+    height: 70px;
+  }
+
+  .logo {
+    height: 50px;
+    margin: 10px 0px;
+  }
+}
+
+
+/* big landscape tablets, laptops, and desktops*/
+@media (min-width: 1024px) {
+  .header {
+    height: 75px;
+  }
+
+  .logo {
+    height: 55px;
+    margin: 10px 0px;
+  }
+}
+
+/* hi-res laptops and desktops*/
+@media (min-width: 1281px) {}
