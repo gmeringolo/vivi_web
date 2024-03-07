@@ -1,56 +1,84 @@
-.logos {
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:300px) {
+  .logos {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
     margin-bottom: 30px;
-    height: auto;
   }
-  
+
   .imgLogos {
     width: auto;
-    height: 180px;
+    height: 170px;
     margin: 20px;
   }
+}
 
-/*resposive para tablet*/
-@media (min-width: 1002px) {
-
-    .imgLogos {
-      height: 370px;
-      margin: 15px;
-    }
-  }
-  
-  /*resposive para tablet2*/
-  @media (min-width: 800px) {
-    .imgLogos {
-      height: 320px;
-    }
-  }
-  
-  /*resposive para mobil1*/
-  @media (min-width: 768px) {
-    .imgLogos {
-      height: 280px;
-    }
-  }
-  
-  /*resposive para mobil2*/
-  @media (min-width: 650px) {
-    .logos {
-      margin-bottom: 10px;
-      flex-direction: column;
-      align-items: center;
-    }
-    .imgLogos {
-      height: 320px;
-      margin: 10px;
-    }
+@media (min-width: 360px) {
+  .logos {
+    margin-top: 50px;
   }
 
-  /*resposive para pc*/
-@media (min-width: 2040px) {
+  .imgLogos {
+    height: 180px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 390px) {
+  .logos {
+    margin-top: 80px;
+  }
+
+  .imgLogos {
+    height: 200px;
+    margin: 10px;
+  }
+}
+
+
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width: 480px) {
+  .logos {
+    margin-bottom: 10px;
+  }
+
+  .imgLogos {
+    height: 320px;
+    margin: 10px;
+  }
+}
+
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android)*/
+@media (min-width: 600px) {
+  .imgLogos {
+    height: 280px;
+  }
+}
+
+
+/* tablet, landscape iPad, lo-res laptops ands desktops*/
+@media (min-width: 801px) {
+
+  .imgLogos {
+    height: 370px;
+    margin: 15px;
+  }
+}
+
+/* big landscape tablets, laptops, and desktops*/
+@media (min-width: 1025px) {
+  .imgLogos {
+    height: 320px;
+  }
+}
+
+
+
+/* hi-res laptops and desktops*/
+@media (min-width: 1281px) {
   .logos {
     display: flex;
     justify-content: center;
@@ -58,11 +86,10 @@
     margin-bottom: 40px;
     margin-top: 45px;
   }
-  
+
   .imgLogos {
     width: auto;
     height: 400px;
     margin: 60px;
   }
 }
-

@@ -8,8 +8,8 @@ import icono from "./icono.png";
 function home() {
   return (
     <>
-    <div className={styles.contenedor}>
-      <Header />
+      <div className={styles.contenedor}>
+        <Header />
         <Logos />
         <div className={styles.containerBoton}>
           <a
@@ -21,7 +21,7 @@ function home() {
           </a>
         </div>
         <Footer />
-    </div>
+      </div>
 
     </>
   );
