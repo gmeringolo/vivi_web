@@ -67,27 +67,31 @@
 }
 
 /* big landscape tablets, laptops, and desktops*/
-@media (min-width: 1025px) {
-  .imgLogos {
-    height: 320px;
-  }
-}
-
-
-
-/* hi-res laptops and desktops*/
-@media (min-width: 1281px) {
+@media (min-width: 1024px) {
   .logos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
     margin-bottom: 40px;
-    margin-top: 45px;
+    margin-top: 120px;
   }
 
   .imgLogos {
     width: auto;
-    height: 400px;
+    height: 320px;
+    margin: 40px;
+  }
+}
+
+/* hi-res laptops and desktops*/
+@media (min-width: 1281px) {
+  .logos {
+    margin-top: 80px;
+  }
+
+  .imgLogos {
+    height: 380px;
     margin: 60px;
   }
 }
