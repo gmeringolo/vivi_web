@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./inicio.module.css";
+import styles from "./logos.module.css";
 import salvica from "./salvica.png";
 import logoamakha from "./Logo_Amakha.png";
 
@@ -11,7 +11,7 @@ function Inicio() {
       <div className={styles.logos}>
         <a           
           href="/salvica"
-          target="_blank"
+          target="_self"
           rel="noreferrer"
           >
             <img
@@ -22,7 +22,7 @@ function Inicio() {
         </a>
         <a           
           href="/amakhaParis"
-          target="_blank"
+          target="_self"
           rel="noreferrer"
           >
             <img

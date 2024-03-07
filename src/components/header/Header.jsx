@@ -1,6 +1,6 @@
 import React from "react";
 import styles from  "./header.module.css";
-import logo from "./LogoViviHeader.png";
+import logo from "./LogoViviW.png";
 
 
 function Header() {
@@ -11,9 +11,7 @@ function Header() {
                 <img src={logo} className={styles.logo} alt="Viviana Castro" />
             </a>
         </div>
-          <div className={styles.section}>
-            <h1>Catálogo Perfules Amakha París</h1>
-          </div>
+
     </>
   );
 }

@@ -1,53 +1,19 @@
 .header{
-    background: #490745;
-    height: 70px;
-    width: 100%;
+    background: #1a1a1a;
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
-    height: 45px;
-    margin: 10px 40px;
-  }
-
-.section {
-    text-align: center;
-    color: #8a3377;
-    max-width: 540px;
-    margin: 50px auto;
-  }
-  
-  .section h1 {
-    font-size: 35px;
-    font-family: 'Courgette', cursive;
-    padding: 20px 0px;
+    height: 30px;
+    margin: 15px 20px;
   }
 
   /*resposive para table*/
-@media (max-width: 1002px) {
- 
-    .section {
-      max-width: 480px;
-    }
-  
-    .section h1 {
-      font-size: 40px;
-      padding: 15px 35px;
-    }
-  
-  }
+@media (min-width: 1002px) {}
   
   /*resposive para mobil*/
-  @media (max-width: 738px) {
-  
-    .section {
-      max-width: 350px;
-      margin: 165px auto;
-    }
-  
-    .section h1 {
-      font-size: 28px;
-      padding: 15px 35px;
-    }
-  
-  }
+  @media (min-width: 738px) {}
   

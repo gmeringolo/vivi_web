@@ -2,18 +2,19 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 40px;
-    margin-top: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: auto;
   }
   
   .imgLogos {
     width: auto;
-    height: 400px;
-    margin: 60px;
+    height: 180px;
+    margin: 20px;
   }
 
 /*resposive para tablet*/
-@media (max-width: 1002px) {
+@media (min-width: 1002px) {
 
     .imgLogos {
       height: 370px;
@@ -22,21 +23,21 @@
   }
   
   /*resposive para tablet2*/
-  @media (max-width: 800px) {
+  @media (min-width: 800px) {
     .imgLogos {
       height: 320px;
     }
   }
   
   /*resposive para mobil1*/
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     .imgLogos {
       height: 280px;
     }
   }
   
   /*resposive para mobil2*/
-  @media (max-width: 650px) {
+  @media (min-width: 650px) {
     .logos {
       margin-bottom: 10px;
       flex-direction: column;
@@ -47,11 +48,21 @@
       margin: 10px;
     }
   }
-  
-  /*resposive para mobil3*/
-  @media (max-width: 365px) {
-    .imgLogos {
-      height: 250px;
-    }
+
+  /*resposive para pc*/
+@media (min-width: 2040px) {
+  .logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 45px;
   }
+  
+  .imgLogos {
+    width: auto;
+    height: 400px;
+    margin: 60px;
+  }
+}
 

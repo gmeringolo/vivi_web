@@ -1,3 +1,7 @@
+.contenedor{
+    height: 100vh;
+}
+
 .containerBoton{
     background-color: #ffffff;
     position: fixed;
@@ -16,7 +20,7 @@
 }*/
 
 .boton{
-    width: 40px;
+    width: 35px;
 }
 
 @keyframes efecto{
@@ -28,9 +32,9 @@
     }
 }
 
-/*resposive para mobil*/
+/*resposive para mobil
 @media (max-width: 650px) {
     .boton{
-        width: 30px;
+        width: 20px;
     }
-}
+}*/
