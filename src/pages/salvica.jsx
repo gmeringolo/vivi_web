@@ -1,13 +1,33 @@
 import React from "react";
 import styles from "./salvica.module.css";
 import icono from "./icono.png";
-import Header from "../components/header/Header";
+import Header from "../components/headerPerfumes/HeaderPerf";
+import sal from "./img/PrecioSalRosa.jpg";
+import azucar from "./img/PrecioAzucar.jpg";
+import salNegra from "./img/PrecioSalNegra.jpg";
 
 function salvica() {
   return (
-    <> 
-          <Header /> 
-        <h1>Salvica</h1>      
+    <>
+      <div className={styles.header}><Header /></div>
+      <div className={styles.precios} >
+        <img
+          src={sal}
+          className={styles.imgPrecios}
+          alt="Precios-SalHimalaya"
+        />
+        <img
+          src={salNegra}
+          className={styles.imgPrecios}
+          alt="Precios-SalNegra"
+        />
+        <img
+          src={azucar}
+          className={styles.imgPrecios}
+          alt="Precios-AzucarMascabo"
+        />
+      </div>
+
       <div className={styles.containerBoton}>
         <a
           href="https://wa.me/+59898873697?text=Para%20consultar%20disponibilidad,%20indicar%20fecha%20de%20entrada%20y%20salida"
