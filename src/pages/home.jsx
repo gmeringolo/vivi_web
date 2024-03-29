@@ -13,7 +13,7 @@ function home() {
         <Logos />
         <div className={styles.containerBoton}>
           <a
-            href="https://wa.me/+59898873697?text=Para%20consultar%20disponibilidad,%20indicar%20fecha%20de%20entrada%20y%20salida"
+            href="https://wa.me/+59898873697?"
             target="_blank"
             rel="noreferrer"
           >

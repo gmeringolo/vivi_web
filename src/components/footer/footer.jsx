@@ -21,7 +21,7 @@ function Footer() {
             <a href="https://www.facebook.com/viviana.castrosequeira" target="_blanck" className={styles.facebook}>
               <img src={Face} alt="facebook" />
             </a>
-            <a href="https://wa.me/+59898873697?text=Para%20consultar%20disponibilidad,%20indicar%20fecha%20de%20entrada%20y%20salida" target="_blanck" className={styles.whatsapp}>
+            <a href="https://wa.me/+59898873697?" target="_blanck" className={styles.whatsapp}>
               <img src={Whats} alt="whatsapp" />
             </a>
           </div>
