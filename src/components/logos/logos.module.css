@@ -3,9 +3,9 @@
   .logos {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    height: 70vh;
   }
 
   .imgLogos {
@@ -17,7 +17,7 @@
 
 @media (min-width: 360px) {
   .logos {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   .imgLogos {
@@ -28,7 +28,7 @@
 
 @media (min-width: 390px) {
   .logos {
-    margin-top: 80px;
+    margin-top: 0px;
   }
 
   .imgLogos {
@@ -40,7 +40,7 @@
 /* smartphones, Android phones, landscape iPhone */
 @media (min-width: 480px) {
   .logos {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   .imgLogos {
