@@ -8,12 +8,13 @@
 .perfumes h1 {
     text-align: center;
     color: #552E57;
-    font-size: 22px;
+    font-size: 23px;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 800;
     font-style: normal;
-    padding: 15px;
+    padding: 12px;
+    margin-top: 50px;
   }
 
   .imgPerfumes {
