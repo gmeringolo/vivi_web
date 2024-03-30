@@ -1,11 +1,13 @@
-.perfumes {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 20px;
-}
+@media (min-width:300px) {
 
-.perfumes h1 {
+  .perfumes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .perfumes h1 {
     text-align: center;
     color: #552E57;
     font-size: 23px;
@@ -13,7 +15,7 @@
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    padding: 12px;
+    padding: 15px 25px;
     margin-top: 50px;
   }
 
@@ -22,41 +24,77 @@
     height: 950px;
     margin-top: 30px;
   }
+}
+
+@media (min-width: 390px) {
+
+  .perfumes h1 {
+    font-size: 25px;
+    padding: 15px 25px;
+  }
+
+  .imgPerfumes {
+    width: auto;
+    height: 1100px;
+    margin-top: 30px;
+  }
+
+}
+
+@media (min-width: 480px) {
+  .perfumes h1 {
+    font-size: 30px;
+    padding: 15px 60px;
+  }
+
+  .imgPerfumes {
+    height: 1250px;
+  }
+}
+
+@media (min-width: 600px) {
+  .perfumes h1 {
+    font-size: 30px;
+    padding: 15px 70px;
+  }
+
+  .imgPerfumes {
+    height: 1500px;
+  }
+}
+
+/*resposive para mobil2*/
+@media (min-width: 650px) {
+  .perfumes h1 {
+    font-size: 40px;
+    padding: 15px 60px;
+  }
+
+  .imgPerfumes {
+    height: 1700px;
+  }
+}
+
+/*resposive para mobil1*/
+@media (min-width: 768px) {
+  .imgPerfumes {
+    height: 1900px;
+  }
+}
+
+/*resposive para tablet2*/
+@media (min-width: 800px) {
+  .imgPerfumes {
+    height: 320px;
+  }
+}
 
 /*resposive para tablet*/
 @media (min-width: 1002px) {
 
-    .imgPerfumes {
-      height: 370px;
-      margin: 15px;
-    }
+  .imgPerfumes {
+    height: 370px;
+    margin: 15px;
   }
-  
-  /*resposive para tablet2*/
-  @media (min-width: 800px) {
-    .imgPerfumes {
-      height: 320px;
-    }
-  }
-  
-  /*resposive para mobil1*/
-  @media (min-width: 768px) {
-    .imgPerfumes {
-      height: 280px;
-    }
-  }
-  
-  /*resposive para mobil2*/
-  @media (min-width: 650px) {
-    .perfumes {
-      margin-bottom: 10px;
-      flex-direction: column;
-      align-items: center;
-    }
-    .imgPerfumes {
-      height: 320px;
-      margin: 10px;
-    }
-  }
-  
+}
 
